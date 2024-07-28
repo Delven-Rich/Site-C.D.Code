@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang = "pt-AO">
+    <head>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "../_styles/signUp.css" type = "text/css">
+        <title>Sign-Up</title>
+    </head>
+    <body>
+         <!--Conteiner flexivel interface-->
+        <div id = "interface">
+
+             <!--Conteiner flexivel flex_i, para os dois blocos-->
+            <div id = "_background">
+
+                <!--Conteiner form-->
+                <div id = "flex_i">
+                    <div id = "_capa1" class = "box">
+                        <span id = "_h4"><h4>Cadastrar</h4></span>
+
+                        <form name = "signUp" method = "get" action = "cadastra_se.php" id = "form_i">
+                            <p>
+                                <label for = "nome">Nome:</label>
+                                <input type = "text" name = "nome" id = "nome">
+                            </p>
+                            <p>
+                                <label for = "sobrenome">Sobrenome:</label>
+                                <input type = "text" name = "sobrenome" id = "sobrenome">
+                            </p>
+                            <p>
+                                <label for = "endereco">Endereço:</label>
+                                <input type = "text" name = "endereco" id = "endereco">
+                            </p>
+                            <p>
+                                <label for = "numero">Número:</label>
+                                <input type = "text" name = "numero" id = "numero">
+                            </p>
+                            <p>
+                                <label for = "email">E-mail:</label>
+                                <input type = "text" name = "email" id = "email">
+                            </p>
+                            <p>
+                                <label for = "senha">Senha:</label>
+                                <input type = "password" maxlength = "30" name = "senha" id = "senha">
+                            </p>
+                            <p>
+                                <label for = "confirmar_senha">Confirmar-Senha:</label>
+                                <input type = "password" maxlength = "30" name = "confirmar_senha" id = "confirmar_senha">
+                            </p>
+
+                            <input type = "submit" name = "cadastrar" value = "Cadastrar" id = "cadastrar">
+                        </form>
+                    </div>
+                    <!-- Fim Conteiner form-->
+
+                    <!--Conteiner slide-->
+                    <div id = "_capa" class = "box">
+                        <img src = "../_img/logo.png" alt = "logo" id = "logo" name = "logo" >
+                        
+                        <div id = "texto_i">
+                            <p>Já és usuário?</p>
+                            <p>Faça o log-in no site da C.D.C</p>
+                        </div>
+
+                        <button name = "entrar" id = "entrar">Entrar</button>
+                    </div>
+                    <!-- Fim Conteiner slide-->
+                </div>
+
+            </div>
+            <!--Fim do conteiner flexivel flex_i-->
+
+        </div>
+        <!--Fim do conteiner flexivel-->
+    </body>
+
+    <script src = "../_js/signUp.js"></script>
+</html>

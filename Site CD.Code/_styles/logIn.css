@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(211, 211, 211);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div#interface{
+    position: relative;
+    display: flex;
+    width: 700px;
+    margin: auto;
+    top: 100px
+}
+
+/*slide
+.box{
+    transition: all 0.5s ease;
+}
+  
+div#interface div#_background div#flex_i div{
+    order: 1;
+}
+  
+div#interface div#_background div#flex_i div#_capa{
+    order: 2;
+}
+Fim do slide*/
+  
+
+div#interface div#_background{
+    background-image: url(../_img/fundo_1.png);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.637) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid white;
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+}
+
+div#interface div#_background div#flex_i{
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    width: 679px;
+    gap: 50px;
+    height: 450px;
+}
+
+div#interface div#_background div#flex_i div#_capa1{
+    padding-top: 100px;
+    color: white;
+
+}
+
+div#interface div#_background div#flex_i div p{
+    font-size: 10pt;
+}
+
+div#interface div#_background div#flex_i div p label{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.849);
+    position: relative;
+    display: inline-block;
+    padding-bottom: 11px;
+    padding-right: 5px;
+    padding-left: 15px;
+    padding-top: 11px;
+    border: none;
+}
+
+div#interface div#_background div#flex_i div p input{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.849);
+    display: inline-block;
+    position: relative;
+    height: 35px;
+    color: white;
+    outline: none;
+    border: none;
+    right: 4px;
+    top: 110px
+}
+
+div#interface div#_background div#flex_i div p input#senha{
+    width: 210px;
+    top: 0px;
+    
+}
+
+div#interface div#_background div#flex_i div p input#email{
+    width: 210px;
+    right: 3px;
+    top: 0px;
+}
+
+span#_h4, input#entrar{
+    display: inline-block;
+    position: relative;
+    left: 90px
+}
+
+span#_h4{
+ text-shadow: 0px 0px 6px black;
+ margin-bottom: -20px;
+ letter-spacing: 1px;
+ left: 110px
+
+}
+
+input#entrar{
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.671);
+    background-color: white;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer
+
+}
+
+p#esqueceu, a{
+    position: relative;
+    left: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+div#interface div#_background div#flex_i div#_capa{
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: black;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    width: 320px
+}
+
+div#interface div#_background div#flex_i div#_capa img#logo{
+    position: relative;
+    right: 10px;
+    width: 150px;
+    height: 80px;
+}
+
+div#interface div#_background div#flex_i div#_capa div{
+    margin-bottom: 30px;
+    position: relative;
+    line-height: 5px;
+    word-spacing: 2px;
+    right: 15px
+}
+
+div#interface div#_background div#flex_i div#_capa button#entrar{
+    position: relative;
+    background-color: rgb(1, 204, 1);
+    font-weight: 600;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    width: 80px;
+    padding: 4px;
+    height: 30px;
+    cursor: pointer;
+    right: 10px;
+}

@@ -1,0 +1,324 @@
+*{
+    font-family: "Tw Cen MT", sans-serif;
+    text-decoration: none;
+    outline: none;
+    padding: 0px;
+    border: none;
+    margin: 0px;
+
+}/*Formatação geral*/
+
+body{
+    overflow-x: hidden;
+    max-width: 1440px;
+}
+
+div#interface{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-image: url(../_img/HeroCDC1.png);
+    background-position: center;
+    background-size: cover;
+    height: 643px;
+}
+
+nav#navegacao{
+    background: linear-gradient(to right, #00ff00 50%, #ffffff 60%); 
+    padding: 20px 0px 20px 30px;
+    font-size: 14pt;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    width: 1440px;
+    gap: 180px;
+}
+
+div#navegacao_link{
+    display: inline-block;
+}
+
+div#navegacao_link a{
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+div#navegacao_link a:hover{
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.986);
+    border-bottom: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 8px;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 8px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    
+}
+
+div#navegacao_btn{
+    display: flex;
+    gap: 30px;
+}
+
+button#btn_i a{
+    color: #00ff00;
+    font-size: 11pt;
+}
+
+button.btn_ii a{
+    font-size: 11pt;
+    color: #000000;
+}
+
+button#btn_i{
+    background-color: white;
+    border: 2px solid #00ff00;
+    letter-spacing: 1px;
+    margin-top: -4px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button.btn_ii{
+    background-color: white;
+    border: 2px solid #00ff00;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: -4px;
+    margin-right: -15px;
+    width: 90px;
+    height: 30px; 
+    cursor: pointer;
+    transition: .2s;
+}
+
+button#btn_i:hover, button.btn_ii:hover{
+    transform: scale(1.1);
+}
+
+div#navegacao_pesquisar{
+    position: relative;
+    top: 540px;
+    left: 750px;
+}
+
+input#pesquisar::placeholder{
+    color: white;
+}
+
+input#pesquisar{
+    border: 2px solid white;
+    background-color: #00ff003d;
+    padding: 15px;
+    border-radius: 25px;
+    width: 500px;
+    color: white;
+    font-size: 15px;
+}
+
+img#pesquisar_icon{
+    position: relative;
+    top: 8px;
+    right: 50px;
+    z-index: 1000;
+}
+
+div#navegacao_link_i div a{
+    color: rgb(0, 0, 0);
+   
+}
+
+div#navegacao_link_i{
+    position: relative;
+    display: flex;
+    gap: 40px;
+    top: 580px;
+    left: 200px;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+div.link_ii{
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px; 
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.404);
+    transition: .2s;
+    cursor: pointer;
+} 
+
+div.link_ii:hover{
+    transform: scale(1.1);
+}
+
+section#seccao_i{
+    flex-direction: column;
+    display: flex;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+
+div#seccao_i_flex{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+div#seccao_ii_flex{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    margin-top: 40px;
+    left: 80px;
+}
+
+div#box_i{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px black;
+    padding: 30px;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 13pt;
+    height: 180px;
+    width: 250px;
+}
+
+button#box_i_btn a{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+button#box_i_btn{
+    background-color:#00ff00;
+    margin-left: 50px;
+    width: 150px;
+    height: 35px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.596);
+    transition: .2s;
+    cursor: pointer;
+}
+
+button#box_i_btn:hover{
+    transform: scale(1.1);
+}
+
+div#box_ii_flex{
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 13pt;
+    gap: 20px;
+    width: 420px;
+}
+
+div.seccao_box_iii{
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    gap: 15px;
+    height: 110px;
+    text-align: center;
+    padding: 20px 10px 40px 10px;
+}
+
+img.imgColor{
+    position: relative;
+    left: 65px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button.btnColor a{
+    font-weight: 600;
+    font-size: 12pt;
+    color: #ffffff;
+}
+button.btnColor{
+    position: relative;
+    left: 50px;
+    width: 90px;
+    border-radius: 15px;
+    background-color: #00ff00;
+    padding: 6px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button.btnColor:hover, img.imgColor:hover{
+    transform: scale(1.1);
+}
+
+section#seccao_ii{
+    border-top: 1px solid rgb(184, 184, 184);
+    margin-top: 60px;
+    padding-top: 60px;
+}
+
+/***Animacao slide**/
+
+div#carrocel{
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+div#carrocel_interno{
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+figure.carrocel_item{
+    min-width: 100%;
+    display: flex;
+    gap: 10px;
+    padding-left: 22px;
+    box-sizing: border-box;
+}
+
+div#carrocel_btns{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button.carrocel_btn{
+    background: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+

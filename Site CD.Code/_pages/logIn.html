@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang = "pt-AO">
+    <head>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "../_styles/logIn.css" type = "text/css">
+        <title>Log-In</title>
+    </head>
+    <body>
+         <!--Conteiner flexivel interface-->
+        <div id = "interface">
+
+             <!--Conteiner flexivel flex_i, para os dois blocos-->
+            <div id = "_background">
+
+                <!--Conteiner form-->
+                <div id = "flex_i">
+                    <!--Conteiner slide-->
+                    <div id = "_capa" class = "box">
+                        <img src = "../_img/logo.png" alt = "logo" id = "logo" name = "logo" >
+                        
+                        <div id = "texto_i">
+                            <p>Ainda não és usuário?</p>
+                            <p>Faça o cadastro no site da C.D.C</p>
+                        </div>
+
+                        <button name = "entrar" id = "entrar">Cadatrar</button>
+                    </div>
+                    <!-- Fim Conteiner slide-->
+
+                    <div id = "_capa1" class = "box">
+                        <span id = "_h4"><h4>Entrar</h4></span>
+
+                        <form name = "logIn" method = "get" action = "entrar.php" id = "form_i">
+                            <p>
+                                <label for = "email">E-mail:</label>
+                                <input type = "text" name = "email" id = "email">
+                            </p>
+                            <p>
+                                <label for = "senha">Senha:</label>
+                                <input type = "password" maxlength = "30" name = "senha" id = "senha">
+                            </p>
+                                
+                            <p id = "esqueceu"><a href = "#">Esqueceu a senha?</a></p>               
+                            
+                            <input type = "submit" name = "entrar" value = "Entrar" id = "entrar">
+                        </form>
+                    </div>
+                    <!-- Fim Conteiner form-->
+
+                </div>
+
+            </div>
+            <!--Fim do conteiner flexivel flex_i-->
+
+        </div>
+        <!--Fim do conteiner flexivel-->
+    </body>
+
+    <script src = "../_js/logIn.js"></script>
+</html>
